@@ -29,6 +29,8 @@ namespace GDTextureSplitter
                 var name = atlas[(atlas.IndexOf('\\') + 1)..atlas.IndexOf(".png")];
                 Splitter.Split(name);
             }
+
+            Console.ReadLine();
         }
     }
 }
