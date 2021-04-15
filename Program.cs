@@ -9,6 +9,7 @@ namespace GDTextureSplitter
         {
             if (!Directory.Exists("Input"))
             {
+                Directory.CreateDirectory("Input");
                 Console.WriteLine("Nothing to convert :(");
                 return;
             }
